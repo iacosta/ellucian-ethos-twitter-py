@@ -1,4 +1,4 @@
-# ellucian-ethos-twitter-python
+# Envio de Notificaciones a Twitter usando Ethos Integration    
 
 This little python app helps to demonstrate how an institution could take advantage of the Ethos Framework and publish real-time messages to a social network, like Twitter. While this isn't an "official" piece of software from Ellucian, I thought by including ellucian in the name then I could easily shorten it and call it the main app --> eet.py <-- which makes me smile every time I tell someone because I definitely like to eat and hardly turn down pie. 
 
