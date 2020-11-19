@@ -106,7 +106,7 @@ ENV/
 # End of GitHub
 
 # locals
-*config.ini
+config.ini
 banner-sections.NewCourseSection_subscribing_Tweet.py
 startTweetNewCourseSection.sh
 TweetNewCourseSection_KILL.sh
