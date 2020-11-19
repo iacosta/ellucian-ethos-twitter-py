@@ -1,7 +1,7 @@
-# Written for Python 3,8
+# Escrito en Python 3,9
 #
-# Esta es la aplicación en Ethos como SUBCRIBING que consumira 
-# los datos de los recurcos sections & academic-program & enviara un twitte a twiiter
+# Esta es la aplicación en Ethos como SUBCRIBING que consumira  
+# los datos de los recursos sections & academic-program & enviara un twitte a twiiter
 #
 import time, pprint, json, configparser
 
