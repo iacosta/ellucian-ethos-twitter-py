@@ -1,4 +1,4 @@
-# Written for Python 3,8
+# Desarrollado Python 3,9
 #
 # Esta es la aplicación en Ethos como SUBCRIBING que consumira 
 # los datos de los recurcos sections & academic-program & enviara un twitte a twiiter
@@ -8,7 +8,7 @@ import time, pprint, json, configparser
 # importar las bibliotecas necesarias de twitter que requiere la instalación de pip3
 import tweepy
 
-# importamos una clase Custom
+# importamos una clase Ethos contruida en ethos.py
 from ethos import Ethos
 
 config = configparser.ConfigParser()
@@ -35,7 +35,7 @@ def main():
         else:
             print('No hay notificaciones de cambio disponibles')
 
-        # uncomment the wait loop for demo purposes    
+        # descomentar el loop de espera para fines de demostración    
         wait_seconds = 5
         print('Esperar {seconds} segundos...\n'.format(seconds=wait_seconds))
         time.sleep(wait_seconds)
@@ -55,7 +55,6 @@ def process_change_notifications(data):
             tweetNewAcademicProgram(d)
 
         elif d['resource']['name'] == 'sections': 
-            #print ('we figured out this is a course section')
             tweetNewCourseSection(d)
 
         else:
@@ -93,7 +92,7 @@ def send_tweet(eeDmResource,eeDmTitle):
     # print('DEBUG entering send_tweet')
     print('DEBUG twitter consumer key: ' + twitterConsumerKey)
     
-    # Set up OAuth and integrate with API
+    # Configurar OAuth e integrarse con la API
     auth = tweepy.OAuthHandler(twitterConsumerKey, twitterConsumerSecret)
     auth.set_access_token(twitterAccessToken, twitterAccessTokenSecret)
 
@@ -110,7 +109,7 @@ def send_tweet(eeDmResource,eeDmTitle):
         tweet = 'Algo no funcionó como se esperaba. Por favor, compruebe los registros.'
         # In a production environment we may not want to actually post this tweet to the world wide webs on the internets for the kids to see
     
-    # send the tweet
+    # Envio del Tweet
     api.update_status(status=tweet)
    
     print('DEBUG salir de la función send_tweet después de la publicación ' + tweet)
@@ -118,4 +117,3 @@ def send_tweet(eeDmResource,eeDmTitle):
 
 if __name__ == '__main__':
     main()
-
