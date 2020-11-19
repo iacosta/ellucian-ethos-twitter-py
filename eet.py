@@ -36,7 +36,7 @@ def main():
             print('No hay notificaciones de cambio disponibles')
 
         # descomentar el loop de espera para fines de demostración    
-        wait_seconds = 5
+        wait_seconds = 30
         print('Esperar {seconds} segundos...\n'.format(seconds=wait_seconds))
         time.sleep(wait_seconds)
 

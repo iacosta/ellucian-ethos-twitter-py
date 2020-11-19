@@ -2,6 +2,9 @@
 
 Esta pequeña aplicación de python ayuda a demostrar cómo una institución puede aprovechar el Marco Ethos y publicar mensajes en tiempo real en una red social, como Twitter. Aunque no es una pieza "oficial" de software de Ellucian, pensé que incluyendo ellucian en el nombre podría acortarlo fácilmente y llamarlo la aplicación principal eet.py
 
+[![Video - Demosrtación Funcional](https://img.youtube.com/vi/4GcFubPBCq0/0.jpg)](https://youtu.be/4GcFubPBCq0)
+
+
 ## La Historia destras de la Historia
 
 Imagina por instante que la demanda de los estudiantes por nuevos cursos supera con creces las proyecciones establecidad y es necesario añadir nuevas secciones de cursos. Mientras se notifica a los estudiantes que se encuentran en una la lista de espera, el Director o Coordinador del programa académico le preocupa que no todos los estudiantes interesados puedan estar en la lista de espera que se ha creado y quiere asegurarse de que la mayoria de los estudiantes estén al tanto de las nuevas ofertas de cursos. En este caso, la cuenta de Twitter del programa académico puede ser usada para mostrar esa información.
