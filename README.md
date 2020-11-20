@@ -2,7 +2,10 @@
 
 Esta pequeña aplicación de python ayuda a demostrar cómo una institución puede aprovechar el Marco Ethos y publicar mensajes en tiempo real en una red social, como Twitter. Aunque no es una pieza "oficial" de software de Ellucian, pensé que incluyendo ellucian en el nombre podría acortarlo fácilmente y llamarlo la aplicación principal eet.py
 
-[![Video - Demosrtación Funcional](https://img.youtube.com/vi/4GcFubPBCq0/0.jpg)](https://youtu.be/4GcFubPBCq0)
+<p align="center">
+<a style="float:center" href="https://youtu.be/4avxPnPJ8V4" target="_blank">
+  <img alt="PicSciP Demo Video" src="https://img.youtube.com/vi/4avxPnPJ8V4/maxresdefault.jpg" width="780" height="450" />
+</a>
 
 
 ## La Historia destras de la Historia
