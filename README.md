@@ -56,11 +56,8 @@ Aprovechando esta capa de integración, esta pequeña aplicación desarrollada e
 
 En la siguiente imagen se puede observar en detalle los diferentes elementos que hacen parte de la aplicación.
 
-<br />
 <p align="center">
     <img src="images/Arquitectura.png" alt="Logo" width="800" height="450">
-  </a>
-  <h1 align="center">Notificaciones a Twitter usando Ethos Integration</h1>
 </p>
 
 ___
