@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://www.ellucian.com/es">
-    <img src="images/logo-ethos-connected" alt="Logo" width="80" height="80">
+    <img src="images/logo-ethos-connected.png" alt="Logo" width="307" height="193">
   </a>
   <h1 align="center">Notificaciones a Twitter usando Ethos Integration</h1>
 </p>
@@ -56,7 +56,13 @@ Aprovechando esta capa de integración, esta pequeña aplicación desarrollada e
 
 En la siguiente imagen se puede observar en detalle los diferentes elementos que hacen parte de la aplicación.
 
-❮img src="images/Arquitectura.png" width="100" ❯
+<br />
+<p align="center">
+    <img src="images/Arquitectura.png" alt="Logo" width="800" height="450">
+  </a>
+  <h1 align="center">Notificaciones a Twitter usando Ethos Integration</h1>
+</p>
+
 ___
 ## Licencia
 Distribuido bajo licencia BSD 2-Clause. Ver `LICENSE` para más información.
